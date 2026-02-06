@@ -13,6 +13,7 @@ abstract class BaseVideoItemModel extends BaseSimpleVideoItemModel {
   String? desc;
   int? pubdate;
   bool isFollowed = false;
+  int? likeCount;
 }
 
 abstract class BaseOwner {

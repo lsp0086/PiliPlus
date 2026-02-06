@@ -82,11 +82,10 @@ abstract final class VideoHttp {
     required int freshIdx,
   }) async {
     final params = {
-      'build': 2001100,
+      'build': 8170200,
       'c_locale': 'zh_CN',
       'channel': 'master',
       'column': 4,
-      'device': 'pad',
       'device_name': 'android',
       'device_type': 0,
       'disable_rcmd': 0,
@@ -98,7 +97,7 @@ abstract final class VideoHttp {
       'guidance': 0,
       'https_url_req': 0,
       'idx': freshIdx,
-      'mobi_app': 'android_hd',
+      'mobi_app': 'android',
       'network': 'wifi',
       'platform': 'android',
       'player_net': 1,

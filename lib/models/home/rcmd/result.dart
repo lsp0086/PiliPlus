@@ -33,7 +33,10 @@ class RecVideoItemAppModel extends BaseRecVideoItemModel {
     isFollowed = const {'已关注', '新关注'}.contains(rcmdReason);
     // 如果是，就无需再显示推荐原因，交由view统一处理即可
     if (isFollowed) rcmdReason = null;
-
+    pubdate = json['pubdate'];
+    if (json["like_button"] != null) {
+      likeCount = json["like_button"]["count"];
+    }
     goto = json['goto'];
     param = int.parse(json['param']);
     uri = json['uri'];

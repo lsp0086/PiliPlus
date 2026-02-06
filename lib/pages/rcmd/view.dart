@@ -56,7 +56,7 @@ class _RcmdPageState extends CommonPageState<RcmdPage, RcmdController>
     crossAxisSpacing: StyleString.cardSpace,
     maxCrossAxisExtent: Pref.recommendCardWidth,
     childAspectRatio: StyleString.aspectRatio,
-    mainAxisExtent: MediaQuery.textScalerOf(context).scale(90),
+    mainAxisExtent: MediaQuery.textScalerOf(context).scale(70),
   );
 
   Widget _buildBody(LoadingState<List<dynamic>?> loadingState) {
