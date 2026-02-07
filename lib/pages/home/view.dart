@@ -82,9 +82,9 @@ class _HomePageState extends State<HomePage>
       children: [
         userAvatar(theme: theme, mainController: _mainController),
         const SizedBox(width: 4),
-        msgBadge(_mainController),
-        const SizedBox(width: 8),
         searchBar(theme),
+        const SizedBox(width: 8),
+        msgBadge(_mainController),
       ],
     );
     if (_homeController.showSearchBar case final searchBar?) {
